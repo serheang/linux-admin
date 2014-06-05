@@ -1,0 +1,16 @@
+Last updated: Mon May 19 17:50:39 2014
+Last change: Wed Jan 29 03:30:38 2014 via crm_attribute on epg-db2.dr.epg.local
+Stack: cman
+Current DC: epg-app1.dr.epg.local - partition with quorum
+Version: 1.1.10-14.el6-368c726
+3 Nodes configured
+3 Resources configured
+
+
+Online: [ epg-app1.dr.epg.local epg-db1.dr.epg.local epg-db2.dr.epg.local ]
+
+ Resource Group: pgsql-top-grp
+     pgsql-top  (ocf::heartbeat:pgsql): Started epg-db1.dr.epg.local
+     pgsql-top-vip      (ocf::heartbeat:IPaddr2):       Started epg-db1.dr.epg.local
+ pgsql-bottom   (ocf::heartbeat:pgsql): Started epg-db2.dr.epg.local
+

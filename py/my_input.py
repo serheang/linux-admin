@@ -8,10 +8,10 @@ __copyright__ = "Copyright and copyleft (c) 2014 Tan Ser Heang"
 __license__ = "GPL v2"
 
 print "Halt!"
-user_reply=raw_input("Who goes there? ")
+user_reply=input("Who goes there? ")
 print "Welcome,", user_reply
-number_input=input("How old are you? ")
-print "You are ",number_input,"."
+number_input=int(input("How old are you? "))
+print "You are ", number_input, "."
 
 
 print "user_reply is ", type(user_reply)
